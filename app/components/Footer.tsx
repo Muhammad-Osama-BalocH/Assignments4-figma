@@ -1,13 +1,9 @@
-// components/Footer.js
-
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <footer className="bg-gray-100 py-10 text-center">
       {/* Footer Image */}
-
-      {/* Social Media Icons */}
       <div className="flex justify-center gap-4 mb-4">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
           <FaFacebook className="text-gray-600 hover:text-blue-600 text-2xl" />
@@ -22,8 +18,6 @@ const Footer = () => {
           <FaLinkedin className="text-gray-600 hover:text-blue-700 text-2xl" />
         </a>
       </div>
-
-      {/* Copyright Text */}
       <p className="text-gray-600 text-sm">&copy; 2020 All rights reserved</p>
     </footer>
   );
